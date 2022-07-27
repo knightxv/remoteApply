@@ -1,0 +1,15 @@
+node_modules
+package-lock.json
+yarn.lock
+dist
+build
+tmp
+**.log
+.cache
+packages/test/data
+*.code-workspace
+.vscode/tasks.json
+**/data/bfchain
+.parcel-cache
+.angular
+bnrtc/logs

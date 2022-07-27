@@ -1,0 +1,17 @@
+{
+  "name": "@cccd/lib-bnrtc",
+  "version": "0.0.0",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "build/cjs/index.js",
+  "types": "build/cjs/index.d.ts",
+  "module": "build/esm/index.js",
+  "browser": {
+    "./build/esm/index.js": "./build/esm/index.web.js"
+  },
+  "dependencies": {
+    "@bfchain/bnrtc2": "^2.0.0",
+    "@bfchain/bnrtc2-client-node": "^2.0.0",
+    "@bfchain/bnrtc2-client-web": "^2.0.0"
+  }
+}

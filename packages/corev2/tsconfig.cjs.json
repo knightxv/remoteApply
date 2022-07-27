@@ -1,0 +1,13 @@
+{
+  "extends": "../../base.tsconfig.cjs.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./build/cjs/tsconfig.tsbuildinfo",
+    "outDir": "build/cjs",
+    "rootDir": "./src"
+  },
+  "references": [
+    {
+      "path": "../lib/tsconfig.cjs.json"
+    }
+  ]
+}

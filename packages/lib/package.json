@@ -1,0 +1,27 @@
+{
+  "name": "@cccd/lib",
+  "version": "0.0.0",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "build/cjs/index.js",
+  "types": "build/cjs/index.d.ts",
+  "module": "build/esm/index.js",
+  "browser": {
+    "./build/esm/stringParser/parser.js": "./build/esm/stringParser/parser.web.js",
+    "./build/esm/storage/kvstorage.js": "./build/esm/storage/kvstorage.web.js",
+    "./build/esm/comproto/comproto.js": "./build/esm/comproto/comproto.web.js"
+  },
+  "dependencies": {
+    "@bfchain/comproto": "^1.0.0",
+    "buffer": "^6.0.3",
+    "leveldown": "^6.1.1",
+    "levelup": "^5.1.1",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "redis-sorted-set": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/leveldown": "^4.0.3",
+    "@types/levelup": "^5.1.1"
+  }
+}

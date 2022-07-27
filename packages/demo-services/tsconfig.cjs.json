@@ -1,0 +1,18 @@
+{
+  "extends": "../../base.tsconfig.cjs.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./build/cjs/tsconfig.tsbuildinfo",
+    "outDir": "build/cjs",
+    "rootDir": "./src",
+    "jsx": "preserve",
+    "lib": ["DOM"]
+  },
+  "references": [
+    {
+      "path": "../core/tsconfig.cjs.json"
+    },
+    {
+      "path": "../corev2/tsconfig.cjs.json"
+    }
+  ]
+}

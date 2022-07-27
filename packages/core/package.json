@@ -1,0 +1,12 @@
+{
+  "name": "@cccd/core",
+  "version": "0.0.0",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "build/cjs/index.js",
+  "types": "build/cjs/index.d.ts",
+  "module": "build/esm/index.js",
+  "dependencies": {
+    "@bfcs/util-evt": "^0.0.1"
+  }
+}

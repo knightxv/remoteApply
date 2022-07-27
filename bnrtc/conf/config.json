@@ -1,0 +1,16 @@
+{
+  "name": "Bnrtcv2-Top",
+  "host": "0.0.0.0",
+  "port": 19020,
+  "servicePort": 19021,
+  "disableTurnServer": true,
+  "disableStunServer": true,
+  "defaultStunUrls": [],
+  "defaultTurnUrls": [],
+  "forceTopNetwork": true,
+  "peers": ["127.0.0.1:19021"],
+  "addresses": ["signal-server"],
+  "logFile": "./logs/bnrtcv2-top.log",
+  "dirPath": "./logs/",
+  "debugModules": ["client-ws"]
+}

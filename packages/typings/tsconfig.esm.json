@@ -1,0 +1,34 @@
+{
+  "extends": "../../base.tsconfig.esm.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./build/esm/tsconfig.tsbuildinfo",
+    "outDir": "build/esm",
+    "rootDir": "./src"
+  },
+  "references": [
+    // {
+    //   "path": "./packages/typings/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/core/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/corev2/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/lib/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/lib-bnrtc/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/lib-ws/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/demo/tsconfig.json"
+    // },
+    // {
+    //   "path": "./packages/test/tsconfig.json"
+    // }
+  ]
+}
